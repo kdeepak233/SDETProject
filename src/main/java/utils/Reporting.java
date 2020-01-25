@@ -9,6 +9,7 @@ import java.util.Base64;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.ITestResult;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -46,6 +47,7 @@ public class Reporting {
 	}
 	public void getResult(ITestResult result)
     {
+		
         if(result.getStatus()==ITestResult.SUCCESS)
         {
             test.log(LogStatus.PASS,result.getName()+" test case PASSED");
@@ -53,10 +55,11 @@ public class Reporting {
         else if(result.getStatus()==ITestResult.SKIP)
         {
             test.log(LogStatus.SKIP,result.getName()+" test case skipped and the reason is :"+ result.getThrowable());
+            Assert.fail(result.getName()+" failed",new Throwable());
         }
         else if(result.getStatus()==ITestResult.FAILURE)
         {
-            test.log(LogStatus.FAIL,result.getName()+" test case FAILED ");
+            test.log(LogStatus.FAIL,result.getName()+" test case FAILED and the reso");
         }
     }
 }
