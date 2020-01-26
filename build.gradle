@@ -19,6 +19,9 @@ dependencies {
     compile group: 'com.aventstack', name: 'extentreports', version:'3.1.5'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'3.6.0'
 	compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
+	compile group: 'commons-io', name: 'commons-io', version: '2.4'
+	compile group: 'log4j', name: 'log4j', version: '1.2.17'
+	compile group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.5.3'
 }
 
 repositories {
@@ -28,11 +31,11 @@ repositories {
 }
 
 test{
-    //systemProperty 'browser', System.getProperty('browser')
+    systemProperty 'browser', System.getProperty('browser')
     //systemProperty "includeGroups", System.getProperty("includeGroups")
     useTestNG(){
-    println(System.getProperty("includeGroups"))
         includeGroups << System.getProperty("includeGroups")
+      	//browser << System.getProperty("browser")  
         options{
             parallel = 'classes'
             threadCount = 1

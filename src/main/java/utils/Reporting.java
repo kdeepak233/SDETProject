@@ -5,22 +5,16 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Base64;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.ITestResult;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
-
 
 public class Reporting {
 	 
 	private static ExtentReports extent;
-	private static ExtentTest test;
+	public static ExtentTest test;
 	
 	public String captureScreenshot(WebDriver driver) {
 		File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -41,25 +35,9 @@ public class Reporting {
 		return "data:image/png;base64,"+screenshotData;
 	}
 	
-	static {
+	public ExtentReports createInstance() {
 		extent =new ExtentReports(System.getProperty("user.dir")+"\\ExtentReport\\extent.html",true);
 	    extent.loadConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
+	    return extent;
 	}
-	public void getResult(ITestResult result)
-    {
-		
-        if(result.getStatus()==ITestResult.SUCCESS)
-        {
-            test.log(LogStatus.PASS,result.getName()+" test case PASSED");
-        }
-        else if(result.getStatus()==ITestResult.SKIP)
-        {
-            test.log(LogStatus.SKIP,result.getName()+" test case skipped and the reason is :"+ result.getThrowable());
-            Assert.fail(result.getName()+" failed",new Throwable());
-        }
-        else if(result.getStatus()==ITestResult.FAILURE)
-        {
-            test.log(LogStatus.FAIL,result.getName()+" test case FAILED and the reso");
-        }
-    }
 }

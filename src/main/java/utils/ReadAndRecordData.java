@@ -33,4 +33,5 @@ public class ReadAndRecordData {
 		}
 		return property.getProperty(key);
 	}
+	
 }
