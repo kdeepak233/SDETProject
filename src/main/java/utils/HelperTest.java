@@ -11,6 +11,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 //import java.io.*;
 //import java.text.SimpleDateFormat;
 //import java.util.Date;
@@ -60,14 +64,19 @@ public class HelperTest extends DriverDetails{
 
     @BeforeSuite(alwaysRun = true)
     public void initializeDataProperty() {
-		/*
-		 * dataProperties = new Properties(); String dataFileName = "data.properties";
-		 * String dataPath = System.getProperty("user.dir") +
-		 * "\\src\\test\\resources\\testData\\" + dataFileName; try { FileInputStream
-		 * dataFile = new FileInputStream(dataPath); dataProperties.load(dataFile); }
-		 * catch (FileNotFoundException e) { Assert.assertTrue(false, e.getMessage()); }
-		 * catch (IOException e) { Assert.assertTrue(false, e.getMessage()); }
-		 */
+		
+		 dataProperties = new Properties(); 
+		 String dataFileName = "data.properties";
+		 String dataPath = System.getProperty("user.dir") + "\\src\\test\\java\\testData\\" + dataFileName; 
+		 try {
+			 FileInputStream dataFile = new FileInputStream(dataPath); 
+			 dataProperties.load(dataFile); 
+			 }
+		 catch (FileNotFoundException e) { Assert.assertTrue(false, e.getMessage()); }
+		 catch (IOException e) 
+		 { 
+			 Assert.assertTrue(false, e.getMessage()); 
+		 }
     }
 
     @AfterClass(alwaysRun = true)
@@ -82,6 +91,7 @@ public class HelperTest extends DriverDetails{
             Assert.fail(e.getMessage());
         } finally {
             copyResults();
+            mailConfigure.autotrigger();
         }
     }
 

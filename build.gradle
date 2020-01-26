@@ -21,7 +21,9 @@ dependencies {
 	compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
 	compile group: 'commons-io', name: 'commons-io', version: '2.4'
 	compile group: 'log4j', name: 'log4j', version: '1.2.17'
-	compile group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.5.3'
+	compile group: 'javax.mail', name: 'javax.mail-api', version: '1.6.2'
+	compile group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
+	
 }
 
 repositories {
