@@ -7,8 +7,13 @@ import org.openqa.selenium.chrome.ChromeOptions;;
 public class DriverDetails {
 
 	public WebDriver driver;
+	private void check() {
+	if(System.getProperty("browser").isEmpty())
+		System.setProperty("browser","chrome");
+		}
 	
 	public WebDriver setDriver() {
+		check();
 		if(System.getProperty("browser").equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver.exe");  
 			ChromeOptions options = new ChromeOptions();

@@ -16,12 +16,15 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 	compile group: 'org.json', name: 'json', version: '20131018'
     compile group: 'org.testng', name: 'testng', version:'6.14.3'
-    compile group: 'com.aventstack', name: 'extentreports', version:'3.1.5'
+	compile group: 'com.aventstack', name: 'extentreports', version: '4.0.9'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'3.6.0'
-	compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
+	//compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
 	compile group: 'commons-io', name: 'commons-io', version: '2.4'
 	compile group: 'log4j', name: 'log4j', version: '1.2.17'
-	compile group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.5.3'
+	compile group: 'javax.mail', name: 'javax.mail-api', version: '1.6.2'
+	compile group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
+	//compile group: 'com.aventstack', name: 'extentreports', version: '4.0.9'
+	
 }
 
 repositories {

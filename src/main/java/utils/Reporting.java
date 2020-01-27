@@ -8,13 +8,18 @@ import java.util.Base64;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+
+import com.aventstack.extentreports.ExtentReports;
+//import com.relevantcodes.extentreports.ExtentReports;
+//import com.relevantcodes.extentreports.ExtentTest;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class Reporting {
 	 
 	private static ExtentReports extent;
 	public static ExtentTest test;
+	 public static ExtentHtmlReporter htmlReporter;
 	
 	public String captureScreenshot(WebDriver driver) {
 		File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -36,8 +41,14 @@ public class Reporting {
 	}
 	
 	public ExtentReports createInstance() {
-		extent =new ExtentReports(System.getProperty("user.dir")+"\\ExtentReport\\extent.html",true);
-	    extent.loadConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
+		
+		 htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"\\ExtentReport\\extent.html");
+	        
+	        //initialize ExtentReports and attach the HtmlReporter
+	        extent = new ExtentReports();
+	        extent.attachReporter(htmlReporter);
+		//extent =new ExtentReports(System.getProperty("user.dir")+"\\ExtentReport\\extent.html",true);
+	    //extent.loadConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
 	    return extent;
 	}
 }
