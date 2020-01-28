@@ -17,6 +17,8 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.Markup;
 
+import pages.BasePage;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -32,7 +34,7 @@ public class HelperTest extends DriverDetails{
 	public ExtentReports ext=report.createInstance();
 	public final static Logger LOGGER = Logger.getLogger(HelperTest.class);
     public static Properties dataProperties;
-    //BasePage basePage = new BasePage();
+    BasePage basePage = new BasePage();
     
     String testCaseId;
     
@@ -97,7 +99,7 @@ public class HelperTest extends DriverDetails{
             Assert.fail(e.getMessage());
         } finally {
             copyResults();
-            mailConfigure.autotrigger();
+            //mailConfigure.autotrigger();
         }
     }
 
@@ -132,7 +134,7 @@ public class HelperTest extends DriverDetails{
         if(data.equalsIgnoreCase("Info"))
         {
         	try {
-				Reporting.test.log(Status.INFO, "", MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
+				Reporting.test.log(Status.INFO, result, MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

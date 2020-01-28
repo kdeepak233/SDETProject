@@ -5,50 +5,80 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Base64;
+
+import javax.imageio.ImageIO;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
-//import com.relevantcodes.extentreports.ExtentReports;
-//import com.relevantcodes.extentreports.ExtentTest;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+
 public class Reporting {
-	 
+
 	private static ExtentReports extent;
 	public static ExtentTest test;
-	 public static ExtentHtmlReporter htmlReporter;
-	
+	public static ExtentHtmlReporter htmlReporter;
+
 	public String captureScreenshot(WebDriver driver) {
-		File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String screenshotData=null;
-		FileInputStream fileInputStream =null;
+		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String screenshotData = null;
+		FileInputStream fileInputStream = null;
 		try {
-			fileInputStream=new FileInputStream(file);
+			fileInputStream = new FileInputStream(file);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		byte[] bytes=new byte[(int)file.length()];
+		byte[] bytes = new byte[(int) file.length()];
 		try {
 			fileInputStream.read(bytes);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		screenshotData=new String(Base64.getEncoder().encode(bytes));
-		return "data:image/png;base64,"+screenshotData;
+		screenshotData = new String(Base64.getEncoder().encode(bytes));
+		return "data:image/png;base64," + screenshotData;
 	}
-	
+
 	public ExtentReports createInstance() {
-		
-		 htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"\\ExtentReport\\extent.html");
-	        
-	        //initialize ExtentReports and attach the HtmlReporter
-	        extent = new ExtentReports();
-	        extent.attachReporter(htmlReporter);
-		//extent =new ExtentReports(System.getProperty("user.dir")+"\\ExtentReport\\extent.html",true);
-	    //extent.loadConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
-	    return extent;
+
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\ExtentReport\\extent.html");
+		extent = new ExtentReports();
+		extent.attachReporter(htmlReporter);
+		// initialize ExtentReports and attach the HtmlReporter
+		// extent =new ExtentReports(System.getProperty("user.dir")+"\\ExtentReport\\extent.html",true);
+		// extent.loadConfig(new
+		// File(System.getProperty("user.dir")+"\\extent-config.xml"));
+		return extent;
+	}
+
+	public String captureFullScreenshot(WebDriver driver) {
+		Screenshot sc = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+		try {
+			ImageIO.write(sc.getImage(), "jpg", new File(System.getProperty("user.dir") + "screenshot.jpg"));
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		File file = new File(System.getProperty("user.dir") + "screenshot.jpg");
+		String screenshotData = null;
+		FileInputStream fileInputStream = null;
+		try {
+			fileInputStream = new FileInputStream(file);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		byte[] bytes = new byte[(int) file.length()];
+		try {
+			fileInputStream.read(bytes);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		screenshotData = new String(Base64.getEncoder().encode(bytes));
+		return "data:image/png;base64," + screenshotData;
 	}
 }

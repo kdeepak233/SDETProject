@@ -1,7 +1,6 @@
 package utils;
 
 import java.util.Properties;
-import java.util.Scanner;
 
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
@@ -23,28 +22,20 @@ public class mailConfigure{
 
         final String username = "swam1042973@gmail.com";
         final String password="Deep@7167" ;
+        
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", "587");
         
-        // Properties props = new Properties();
-//            props.put("mail.smtp.socketFactory.port", "587");
-//            props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-//            props.put("mail.smtp.socketFactory.fallback", "true");
-		/*
-		 * props.put("mail.smtp.host", "smtp-mail.outlook.com");
-		 * props.put("mail.smtp.port", "587");
-		 * props.put("mail.smtp.starttls.enable","true"); props.put("mail.smtp.auth",
-		 * "true");
-		 */  
         Session session = Session.getInstance(props,
                 new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
                 return new PasswordAuthentication(username, password);
             }
         });
+        
         try 
         {
             Message message = new MimeMessage(session);
@@ -65,6 +56,7 @@ public class mailConfigure{
             Transport.send(message);
             System.out.println("Sent message successfully....");
         } 
+        
         catch (MessagingException e) 
         {
             throw new RuntimeException(e);
