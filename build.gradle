@@ -26,6 +26,9 @@ dependencies {
 	//compile group: 'com.aventstack', name: 'extentreports', version: '4.0.9'
 	// https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot
 	compile group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.5.3'
+	// https://mvnrepository.com/artifact/commons-lang/commons-lang
+	compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+	
 	
 	
 }

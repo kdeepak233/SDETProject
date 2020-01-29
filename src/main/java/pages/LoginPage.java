@@ -1,0 +1,28 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+public class LoginPage extends BasePage {
+	private By btnSignIn = By.xpath("(//button/span[text()='Sign In '])[1]");
+	private By txtEmailId = By.xpath("//h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']");
+	private By txtPassword = By.xpath("//h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']");
+	private By btnLogin = By.xpath("//h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']");
+	
+	public void enterLoginCredentials() {
+		setData("email", "demo@demo.com");
+		setData("password", "Demo@1234");
+		String emailId = getData("email");
+		String passWord = getData("password");
+
+		waitVisibility(btnSignIn);
+		click(btnSignIn);
+		getReport("info", "Clicked on Sign In Button");
+		waitVisibility(txtEmailId);
+		writeText(txtEmailId, emailId);
+		writeText(txtPassword, passWord);
+		getReport("info", "Credentials Entered");
+		click(btnLogin);
+		getReport("info", "User Logged In");
+	}
+
+	}

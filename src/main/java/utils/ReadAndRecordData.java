@@ -9,16 +9,7 @@ import java.util.Properties;
 
 public class ReadAndRecordData {
 
-	public static HashMap<String,String> storageData=new HashMap<String, String>();
-	
-	public void setData(String key,String value) {
-		storageData.put(key,value);
-	}
-	public String getData(String key) {
-		return storageData.get(key).toString();
-	}
-
-	public String getPropertyData(String key) {
+		public String getPropertyData(String key) {
 		FileInputStream fileInputStream = null;
 		try {
 			fileInputStream=new FileInputStream(new File(""));
