@@ -25,4 +25,13 @@ public class LoginPage extends BasePage {
 		getReport("info", "User Logged In");
 	}
 
+	public void verifyLogOut() {
+		try {
+			waitVisibility(btnSignIn);
+			getReport("info", "Logged out Successfully");
+		} catch (Exception e) {
+			getReport("fail", "Logging out Failed");
+		}
+	}
+
 	}

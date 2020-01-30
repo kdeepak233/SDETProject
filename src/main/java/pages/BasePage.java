@@ -1,15 +1,18 @@
 package pages;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Properties;
 import java.util.Random;
 
 import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptException;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -32,17 +35,18 @@ public class BasePage {
 	// Click Method
 	public void click(By elementLocation) {
 		waitVisibility(elementLocation);
-		/*
-		 * JavascriptExecutor js=(JavascriptExecutor) getDriver();
-		 * js.executeScript("arguments[0].scrollIntoView()",
-		 * getDriver().findElement(elementLocation));
-		 */
+		WebElement ele=ConstantData.drivers.findElement(elementLocation);
+		Actions builder = new Actions(getDriver());
+		builder.moveToElement(ele).build().perform();
 		wait.until(ExpectedConditions.elementToBeClickable(elementLocation));
-		ConstantData.drivers.findElement(elementLocation).click();
+		ele.click();
 	}
 
 	public void click(WebElement element) {
 		waitVisibility(element);
+		Actions builder = new Actions(getDriver());
+		builder.moveToElement(element).build().perform();
+		wait.until(ExpectedConditions.elementToBeClickable(element));
 		element.click();
 	}
 	
@@ -138,5 +142,32 @@ public class BasePage {
 	public String getText(WebElement ele) {
 		waitVisibility(ele);
 		return ele.getText();
+	}
+	
+	public void waitTillElementNotVisible(By by) {
+		waitVisibility(by);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
+	}
+	
+	public int getRandomIntegerLength(int length) {
+		Random random=new Random();
+		int m = (int) Math.pow(10, length - 1);
+	    return m + random.nextInt(9 * m);
+	}
+	
+	public String getPropertyData(String key) {
+		FileInputStream fileInputStream = null;
+		try {
+			fileInputStream=new FileInputStream(new File(System.getProperty("user.dir")+"\\src\\test\\java\\testData\\data.properties"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		Properties property=new Properties();
+		try {
+			property.load(fileInputStream);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return property.getProperty(key);
 	}
 }

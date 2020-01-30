@@ -24,16 +24,6 @@ public class HomePage extends BasePage {
 		waitVisibility(btnLogOut);
 		click(btnLogOut);
 	}
-
-	public void verifyLogOut() {
-		try {
-			waitVisibility(txtLogin);
-			getReport("fail", "Logging out Failed");
-		} catch (Exception e) {
-			getReport("info", "Logged out Successfully");
-
-		}
-	}
 	
 	public void clickLogo() {
 		click(linkLogo);

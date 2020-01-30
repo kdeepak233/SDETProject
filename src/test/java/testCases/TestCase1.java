@@ -10,7 +10,7 @@ import pages.WishlistPage;
 import utils.HelperTest;
 
 public class TestCase1 extends HelperTest {
-	@Test(groups = "TestCase1")
+	@Test(groups = "loginTestCase")
 	public void te1() {
 
 		LoginPage loginPage = new LoginPage();
@@ -30,7 +30,8 @@ public class TestCase1 extends HelperTest {
 		homePage.clickLogo();
 		homePage.clickWishList();
 		wishlistPage.verifyProduct();
+		homePage.clickLogo();
 		homePage.logOut();
-		homePage.verifyLogOut();
+		loginPage.verifyLogOut();
 	}
 }
