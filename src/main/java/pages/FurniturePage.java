@@ -13,7 +13,6 @@ public class FurniturePage extends BasePage{
 		waitVisibility(listFurnitures);
 		List <WebElement> list=getDriver().findElements(listFurnitures);
 		int size=getRandomInteger(list.size()-1);
-		System.out.println("size is"+size);
 		click(list.get(size));
 		getReport("INFO","clicked on a furniture");
 	}

@@ -14,7 +14,6 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -22,6 +21,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
 import io.restassured.builder.RequestSpecBuilder;
@@ -58,8 +58,7 @@ public class HelperTest extends DriverDetails {
 			if (result.getStatus() == ITestResult.FAILURE) {
 				Reporting.test.log(Status.FAIL, result.getName() + " Test case FAILED due to below issues:");
 				Reporting.test.log(Status.FAIL, result.getThrowable());
-				Reporting.test.log(Status.FAIL, "Snapshot when exception occur: ");
-				Reporting.test.addScreenCaptureFromBase64String(report.captureScreenshot(ConstantData.drivers));
+				Reporting.test.log(Status.FAIL, "Exception occured at : ",MediaEntityBuilder.createScreenCaptureFromBase64String(report.captureScreenshot(ConstantData.drivers)).build());
 			} else if (result.getStatus() == ITestResult.SUCCESS) {
 				Reporting.test.log(Status.PASS, "Passed");
 			} else if (result.getStatus() == ITestResult.SKIP) {
@@ -68,7 +67,7 @@ public class HelperTest extends DriverDetails {
 				Reporting.test.log(Status.ERROR, result.getThrowable());
 			}
 		} catch (Exception e) {
-			Reporting.test.log(Status.FAIL, "Exception in Tear down : " + e.getMessage());
+			Reporting.test.log(Status.FAIL, "Exception is : " + e.getMessage());
 		} finally {
 			driver.quit();
 			Reporting.test = null;
@@ -91,9 +90,6 @@ public class HelperTest extends DriverDetails {
 		}
 	}
 
-	@AfterClass(alwaysRun = true)
-	public void clearDynamicData() {
-	}
 
 	@AfterSuite(alwaysRun = true)
 	public void clearExtentTest() {
@@ -131,34 +127,6 @@ public class HelperTest extends DriverDetails {
 		 * destinationDir); }
 		 */
 	}
-
-//    public void getReport(String data,String result)
-//    {
-//    	String ss=report.captureScreenshot(ConstantData.drivers);
-//        if(data.equalsIgnoreCase("Info"))
-//        {
-//        	try {
-//				Reporting.test.log(Status.INFO, result, MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
-//			} catch (IOException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
-//            Reporting.test.log(Status.INFO,result);
-//        }
-//        else if(data.equalsIgnoreCase("Skip"))
-//        {
-//        	
-//        	Reporting.test.log(Status.SKIP,result);
-//        	Reporting.test.addScreenCaptureFromBase64String(ss);
-//            Assert.assertFalse(true);
-//        }
-//        else if(data.equalsIgnoreCase("fail"))
-//        {
-//        	Reporting.test.log(Status.FAIL,result);
-//        	Reporting.test.addScreenCaptureFromBase64String(ss);
-//            Assert.assertFalse(true);
-//        }
-	// }
 
 	public ExtentTest createNode(ExtentTest extent, String name) {
 

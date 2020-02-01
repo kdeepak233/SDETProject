@@ -1,6 +1,5 @@
 package services;
 
-
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -10,7 +9,7 @@ import static io.restassured.RestAssured.given;
 
 public class Connection extends BasePage {
 
-	RequestSpecification requestSpecification;
+	private static RequestSpecification requestSpecification;
 	
 	public static RequestSpecBuilder intializeService(String baseUri) {
 		RequestSpecBuilder builder = new RequestSpecBuilder();
@@ -20,17 +19,29 @@ public class Connection extends BasePage {
 	
 	public void postRestData(RequestSpecBuilder requestSpecBuilder,String basePath) {
 		String json=getJson(basePath);
+		buildRequest(requestSpecBuilder,basePath);
+		Response responce=given(requestSpecification).body(json).when().post().then().extract().response();
+		String statusCode=Integer.toString(responce.statusCode());
+		if(statusCode.startsWith("2"))
+			getReport("info", basePath.split("/")[3]+" repsonse "+responce.prettyPrint()+" Passed");
+		else
+			getReport("fail", basePath.split("/")[3]+" repsonse "+responce.prettyPrint()+" Failed");		
+	}
+	
+	public void buildRequest(RequestSpecBuilder requestSpecBuilder,String basePath) {
 		requestSpecBuilder.setBasePath(basePath);
 		requestSpecBuilder.setContentType("application/json");
 		requestSpecification=requestSpecBuilder.build();
-		Response responce=given(requestSpecification).body(json).when().post().then().extract().response();
+	}
+	
+	public void getRestData(RequestSpecBuilder requestSpecBuilder,String basePath,String value) {
+		buildRequest(requestSpecBuilder,basePath);
+		Response responce=given(requestSpecification).when().get("/"+value);
 		String statusCode=Integer.toString(responce.statusCode());
-		
 		if(statusCode.startsWith("2"))
 			getReport("info", basePath.split("/")[2]+" repsonse "+responce.prettyPrint()+" Passed");
 		else
-			getReport("fail", basePath.split("/")[2]+" repsonse "+responce.prettyPrint()+"");
-			
+			getReport("fail", basePath.split("/")[2]+" repsonse "+responce.prettyPrint()+"Failed");		
 	}
 	
 	public String getJson(String basePath) {

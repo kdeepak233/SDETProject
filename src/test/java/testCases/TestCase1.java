@@ -23,6 +23,7 @@ public class TestCase1 extends HelperTest {
 		setTestSetId("TC12345");
 		
 		connection.postRestData(requestSpecBuilder,getTestData("signupAPI"));
+		//connection.getRestData(requestSpecBuilder, getTestData("signupAPI"), value);
 		loginPage.enterLoginCredentials();
 		homePage.verifyLogin();
 		homePage.clickFurniture();
@@ -36,4 +37,5 @@ public class TestCase1 extends HelperTest {
 		homePage.logOut();
 		loginPage.verifyLogOut();
 	}
+	
 }
