@@ -114,13 +114,18 @@ public class BasePage {
 				e.printStackTrace();
 			}
 		} else if (data.equalsIgnoreCase("Skip")) {
-
-			Reporting.test.log(Status.SKIP, result);
-			Reporting.test.addScreenCaptureFromBase64String(ss);
+			try {
+				Reporting.test.log(Status.SKIP, result,MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 			Assert.assertFalse(true);
 		} else if (data.equalsIgnoreCase("fail")) {
-			Reporting.test.log(Status.FAIL, result);
-			Reporting.test.addScreenCaptureFromBase64String(ss);
+			try {
+				Reporting.test.log(Status.FAIL, result,MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 			Assert.assertFalse(true);
 		}
 	}
@@ -169,5 +174,9 @@ public class BasePage {
 			e.printStackTrace();
 		}
 		return property.getProperty(key);
+	}
+	
+	public String getRandomCaps(int length) {
+		return RandomStringUtils.randomAlphabetic(length).toUpperCase();
 	}
 }
