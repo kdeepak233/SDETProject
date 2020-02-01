@@ -18,7 +18,6 @@ public class DriverDetails {
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver.exe");  
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized");
-			options.addArguments("--start-fullscreen");
 			driver=new ChromeDriver(options);	
 		}
 		else if(System.getProperty("browser").equalsIgnoreCase("ie"))
@@ -30,4 +29,5 @@ public class DriverDetails {
 		ConstantData.drivers=driver;
 		return driver;
 	}
+	
 }
