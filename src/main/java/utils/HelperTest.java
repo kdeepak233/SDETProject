@@ -24,7 +24,10 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.specification.RequestSpecification;
 import pages.BasePage;
+import services.Connection;
 
 public class HelperTest extends DriverDetails {
 
@@ -33,7 +36,8 @@ public class HelperTest extends DriverDetails {
 	public final static Logger LOGGER = Logger.getLogger(HelperTest.class);
 	public static Properties dataProperties;
 	BasePage basePage = new BasePage();
-
+	protected RequestSpecBuilder requestSpecBuilder;
+	RequestSpecification requestSpecification;
 	String testCaseId;
 
 	public void setTestSetId(String testsetId) {
@@ -45,6 +49,7 @@ public class HelperTest extends DriverDetails {
 	public void initializeData() {
 		setDriver();
 		ConstantData.drivers.get(getTestData("WebUrl"));
+		requestSpecBuilder=Connection.intializeService(getTestData("RestUrl"));
 	}
 
 	@AfterMethod(alwaysRun = true)

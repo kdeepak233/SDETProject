@@ -9,9 +9,8 @@ public class LoginPage extends BasePage {
 	private By btnLogin = By.xpath("//h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']");
 	
 	public void enterLoginCredentials() {
-		setData("email", "demo@demo.com");
-		setData("password", "Demo@1234");
-		String emailId = getData("email");
+		
+		String emailId = getData("userEmail");
 		String passWord = getData("password");
 
 		waitVisibility(btnSignIn);

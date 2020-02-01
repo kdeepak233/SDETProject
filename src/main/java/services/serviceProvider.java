@@ -4,9 +4,9 @@ import org.json.JSONObject;
 
 import pages.BasePage;
 
-public class serviceProvider extends BasePage{
+public class ServiceProvider extends BasePage{
 	
-	public JSONObject signUpServiceData() {
+	public String signUpServiceData() {
 		JSONObject json=new JSONObject();
 		JSONObject jsonChlid=new JSONObject();		
 		
@@ -30,7 +30,9 @@ public class serviceProvider extends BasePage{
 		json.put("role", jsonChlid);
 		json.put("userStatus", "ACTIVE");		
 
+		System.out.println(json.toString());
 		getReport("info", "Data created for signup "+json.toString());
-		return json;
+		return json.toString();
 	}
+
 }

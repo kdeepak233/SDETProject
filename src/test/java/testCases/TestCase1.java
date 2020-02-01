@@ -7,6 +7,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.ProductPage;
 import pages.WishlistPage;
+import services.Connection;
 import utils.HelperTest;
 
 public class TestCase1 extends HelperTest {
@@ -18,9 +19,10 @@ public class TestCase1 extends HelperTest {
 		FurniturePage furniturePage = new FurniturePage();
 		ProductPage productPage = new ProductPage();
 		WishlistPage wishlistPage=new WishlistPage();
-
+		Connection connection=new Connection();
 		setTestSetId("TC12345");
-
+		
+		connection.postRestData(requestSpecBuilder,getTestData("signupAPI"));
 		loginPage.enterLoginCredentials();
 		homePage.verifyLogin();
 		homePage.clickFurniture();
