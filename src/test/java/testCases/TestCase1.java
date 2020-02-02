@@ -20,7 +20,7 @@ public class TestCase1 extends HelperTest {
 		ProductPage productPage = new ProductPage();
 		WishlistPage wishlistPage=new WishlistPage();
 		Connection connection=new Connection();
-		setTestSetId("TC12345");
+		setTestSetId("TC_LoginTestCase");
 		
 		connection.postRestData(requestSpecBuilder,getTestData("signupAPI"));
 		//connection.getRestData(requestSpecBuilder, getTestData("signupAPI"), value);

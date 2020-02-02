@@ -7,7 +7,7 @@ public class LoginPage extends BasePage {
 	private By txtEmailId = By.xpath("//h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']");
 	private By txtPassword = By.xpath("//h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']");
 	private By btnLogin = By.xpath("//h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']");
-
+	
 	public void enterLoginCredentials() {
 
 		String emailId = getData("userEmail");

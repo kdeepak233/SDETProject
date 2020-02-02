@@ -52,4 +52,15 @@ public class Connection extends BasePage {
 		System.out.println(json);
 		return json;
 	}
+	
+	public void deleteData(RequestSpecBuilder requestSpecBuilder,String basePath,String value) {
+		value=getData(value);
+		buildRequest(requestSpecBuilder,basePath);
+		Response responce=given(requestSpecification).when().delete("/"+value).then().extract().response();
+		String statusCode=Integer.toString(responce.statusCode());
+		if(statusCode.startsWith("2"))
+			getReport("info", basePath.split("/")[3]+" repsonse "+responce.prettyPrint()+" Passed");
+		else
+			getReport("fail", basePath.split("/")[3]+" repsonse "+responce.prettyPrint()+" Failed");		
+	}
 }
