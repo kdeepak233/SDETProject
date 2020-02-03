@@ -9,7 +9,7 @@ import services.Connection;
 import utils.HelperTest;
 
 public class TestCase2 extends HelperTest {
-	@Test(groups = "profileTestCase")
+	@Test(groups = "tc2")
 	public void testCase2() {
 
 		LoginPage loginPage = new LoginPage();
@@ -19,7 +19,7 @@ public class TestCase2 extends HelperTest {
 		
 		setTestSetId("TC_ProfileTestCase");
 		
-		connection.postRestData(requestSpecBuilder,getTestData("signupAPI"));
+		connection.postRestData(getTestData("signupAPI"));
 		loginPage.enterLoginCredentials();
 		homePage.verifyLogin();
 		homePage.clickOnProfile();
@@ -27,7 +27,7 @@ public class TestCase2 extends HelperTest {
 		homePage.clickLogo();
 		homePage.logOut();
 		loginPage.verifyLogOut();
-		connection.deleteData(requestSpecBuilder, getTestData("profileAPI"), "profileId");
+		connection.deleteData(getTestData("profileAPI"), "profileId");
 		loginPage.enterLoginCredentials();
 		homePage.veificationFailed();
 		

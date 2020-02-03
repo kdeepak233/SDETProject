@@ -3,14 +3,8 @@ package utils;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-//import java.io.*;
-//import java.text.SimpleDateFormat;
-//import java.util.Date;
 import java.util.Properties;
 
-//import com.relevantcodes.extentreports.ExtentReports;
-//import com.relevantcodes.extentreports.LogStatus;
-//import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -36,7 +30,7 @@ public class HelperTest extends DriverDetails {
 	public final static Logger LOGGER = Logger.getLogger(HelperTest.class);
 	public static Properties dataProperties;
 	BasePage basePage = new BasePage();
-	protected RequestSpecBuilder requestSpecBuilder;
+	public static RequestSpecBuilder requestSpecBuilder;
 	RequestSpecification requestSpecification;
 	String testCaseId;
 
@@ -76,7 +70,6 @@ public class HelperTest extends DriverDetails {
 
 	@BeforeSuite(alwaysRun = true)
 	public void initializeDataProperty() {
-
 		dataProperties = new Properties();
 		String dataFileName = "data.properties";
 		String dataPath = System.getProperty("user.dir") + "\\src\\test\\java\\testData\\" + dataFileName;
@@ -98,7 +91,6 @@ public class HelperTest extends DriverDetails {
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
 		} finally {
-			copyResults();
 			// mailConfigure.autotrigger();
 		}
 	}
@@ -107,29 +99,7 @@ public class HelperTest extends DriverDetails {
 		return dataProperties.getProperty(propertyName);
 	}
 
-	public void copyResults() {
-		/*
-		 * String destinationDir = ""; try { String timeStamp = new
-		 * SimpleDateFormat("yyyyMMddHHmmss").format(new Date()); destinationDir =
-		 * "//qsvmnas03/QMOAutomationTestResults/Mosaic/Release18/CertCycle14/TestNG/" +
-		 * System.getProperty("includedGroups") + "/" + timeStamp + "/extent-reports";
-		 * File logFile = new File(System.getProperty("user.dir") + "/build/log.out");
-		 * String sourceDir = System.getProperty("user.dir") + "/build/extent-reports";
-		 * File destDir = new File(destinationDir); File srcDir = new File(sourceDir);
-		 * FileUtils.copyFileToDirectory(logFile, destDir);
-		 * FileUtils.copyDirectory(srcDir, destDir);
-		 * System.out.println("Results are copied from location " +
-		 * sourceDir.replace('/', '\\'));
-		 * System.out.println("Results are copied to location " +
-		 * destinationDir.replace('/', '\\')); } catch (Exception e) {
-		 * Assert.assertTrue(false,
-		 * "Exception occurred while moving results to shared drive : " +
-		 * destinationDir); }
-		 */
-	}
-
 	public ExtentTest createNode(ExtentTest extent, String name) {
-
 		ExtentTest childExtentTest = extent.createNode(name);
 		return childExtentTest;
 	}

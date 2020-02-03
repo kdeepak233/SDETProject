@@ -22,7 +22,7 @@ public class TestCase1 extends HelperTest {
 		Connection connection=new Connection();
 		setTestSetId("TC_LoginTestCase");
 		
-		connection.postRestData(requestSpecBuilder,getTestData("signupAPI"));
+		connection.postRestData(getTestData("signupAPI"));
 		//connection.getRestData(requestSpecBuilder, getTestData("signupAPI"), value);
 		loginPage.enterLoginCredentials();
 		homePage.verifyLogin();
