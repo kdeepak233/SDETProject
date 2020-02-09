@@ -12,7 +12,7 @@ public class HomePage extends BasePage {
 	private By btnProfile = By.xpath("//div[@role='menu']//button[contains(text(),' Profile')]");
 	private By txtVerificationFailedMsg = By.xpath("//div[@role='alert' and contains(text(),'Invalid Email or Password')]");
 	private By successloggedOutMessage = By.xpath("//div[contains(@aria-label,'Successfully logged out')]");
-	private By successMessage = By.xpath("//div[contains(@aria-label,'Successfully logged in')]");
+	private By successMessage = By.xpath("//div[contains(@aria-label,'Successfully')]");
 	
 	public void verifyLogin() {
 		waitTillElementNotVisible(successMessage);

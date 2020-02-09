@@ -10,6 +10,7 @@ import java.util.Random;
 
 import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -17,19 +18,20 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.openqa.selenium.JavascriptExecutor;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
 import utils.ConstantData;
+import utils.Log4j;
 import utils.Reporting;
 
 public class BasePage {
 	private WebDriverWait wait;
 	Reporting report = new Reporting();
 	private static HashMap<String, String> storageData = new HashMap<String, String>();
-
+	Log4j log=new Log4j();
+		
 	public void waitForElements() {
 		wait = new WebDriverWait(ConstantData.drivers, 100);
 	}
@@ -112,12 +114,14 @@ public class BasePage {
 		if (data.equalsIgnoreCase("Info")) {
 			try {
 				Reporting.test.log(Status.INFO, result,MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
+				log.logger.info("Log.Info: "+result);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		} else if (data.equalsIgnoreCase("Skip")) {
 			try {
 				Reporting.test.log(Status.SKIP, result,MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
+				log.logger.fatal("Log.Skip: "+result);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -125,6 +129,7 @@ public class BasePage {
 		} else if (data.equalsIgnoreCase("fail")) {
 			try {
 				Reporting.test.log(Status.FAIL, result,MediaEntityBuilder.createScreenCaptureFromBase64String(ss).build());
+				log.logger.error("Log.Fail: "+result);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

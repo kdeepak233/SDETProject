@@ -63,8 +63,8 @@ public class HelperTest extends DriverDetails {
 		} catch (Exception e) {
 			Reporting.test.log(Status.FAIL, "Exception is : " + e.getMessage());
 		} finally {
-			driver.quit();
 			Reporting.test = null;
+			driver.quit();
 		}
 	}
 

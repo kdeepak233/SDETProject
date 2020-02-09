@@ -18,22 +18,13 @@ dependencies {
     compile group: 'org.testng', name: 'testng', version:'6.14.3'
 	compile group: 'com.aventstack', name: 'extentreports', version: '4.0.9'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'3.6.0'
-	//compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
 	compile group: 'commons-io', name: 'commons-io', version: '2.4'
 	compile group: 'log4j', name: 'log4j', version: '1.2.17'
 	compile group: 'javax.mail', name: 'javax.mail-api', version: '1.6.2'
 	compile group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
-	//compile group: 'com.aventstack', name: 'extentreports', version: '4.0.9'
-	// https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot
 	compile group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.5.3'
-	// https://mvnrepository.com/artifact/commons-lang/commons-lang
 	compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
-	// https://mvnrepository.com/artifact/io.rest-assured/rest-assured
-	compile group: 'io.rest-assured', name: 'rest-assured', version: '4.1.2'
-	
-	
-	
-	
+	compile group: 'io.rest-assured', name: 'rest-assured', version: '4.1.2'	
 }
 
 repositories {
@@ -44,24 +35,17 @@ repositories {
 
 test{
     systemProperty 'browser', System.getProperty('browser')
-    //systemProperty "includeGroups", System.getProperty("includeGroups")
     useTestNG(){
         includeGroups << System.getProperty("includeGroups")
-      	//browser << System.getProperty("browser")  
+      	useDefaultListeners = true
         options{
             parallel = 'classes'
             threadCount = 1
-        }
-    }
-    
-    //Modify the test logging
+		}
+	}
     testLogging {
         showStandardStreams = true
         exceptionFormat "full"
     }
-
-    //Disable the default groovy html reports since ReportNG is being used
     reports.html.enabled = true
-
-    ignoreFailures=true
 }

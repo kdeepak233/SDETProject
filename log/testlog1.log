@@ -1,0 +1,321 @@
+2020-02-09 00:38:04,175 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"TEQNJwN","emailId":"TEQNJwN@demo.com","mobileNo":"9351751550"}
+2020-02-09 00:38:07,043 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - TEQNJwN",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - TEQNJwN",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 00:38:08,568 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 00:38:10,094 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 00:38:10,901 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 00:38:17,963 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 00:38:20,798 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 292
+2020-02-09 00:38:22,094 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 00:38:29,494 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 00:38:30,874 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 292",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 00:38:31,701 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 00:38:32,431 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 00:38:33,109 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 00:38:33,606 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-09 00:40:57,448 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"NIblnww","emailId":"NIblnww@demo.com","mobileNo":"9808348696"}
+2020-02-09 00:40:59,522 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - NIblnww",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - NIblnww",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 00:41:00,692 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 00:41:01,435 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 00:41:02,188 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 00:41:09,249 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 00:41:12,076 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 293
+2020-02-09 00:41:13,316 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 00:41:20,574 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 00:41:21,866 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 293",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 00:41:22,639 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 00:41:23,404 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 00:41:24,114 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 00:41:25,619 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-09 01:02:48,083 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"eINZGgZ","emailId":"eINZGgZ@demo.com","mobileNo":"9433881829"}
+2020-02-09 01:02:49,862 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - eINZGgZ",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - eINZGgZ",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 01:03:38,241 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"lWdpRQJ","emailId":"lWdpRQJ@demo.com","mobileNo":"9420079578"}
+2020-02-09 01:03:39,585 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - lWdpRQJ",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - lWdpRQJ",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 01:06:20,690 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"OmRhnRM","emailId":"OmRhnRM@demo.com","mobileNo":"9444529065"}
+2020-02-09 01:06:22,042 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - OmRhnRM",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - OmRhnRM",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 01:10:11,717 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"BAAFJse","emailId":"BAAFJse@demo.com","mobileNo":"9924904672"}
+2020-02-09 01:10:13,426 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - BAAFJse",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - BAAFJse",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 01:10:16,225 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 01:10:16,558 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 01:10:17,748 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 01:14:33,426 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"agjbEyb","emailId":"agjbEyb@demo.com","mobileNo":"9886394363"}
+2020-02-09 01:14:34,777 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - agjbEyb",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - agjbEyb",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 01:17:50,065 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"awOafgp","emailId":"awOafgp@demo.com","mobileNo":"9603936718"}
+2020-02-09 01:17:51,750 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - awOafgp",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - awOafgp",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 01:17:52,652 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 01:17:53,156 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 01:17:53,737 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 01:26:20,521 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 08:44:35,059 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"PuBFvRo","emailId":"PuBFvRo@demo.com","mobileNo":"9337509406"}
+2020-02-09 08:44:36,682 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - PuBFvRo",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - PuBFvRo",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 08:44:37,538 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 08:44:38,106 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 08:44:38,687 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 08:53:05,644 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 09:19:07,676 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 308
+2020-02-09 09:19:08,463 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 09:23:45,245 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"iBWucCB","emailId":"iBWucCB@demo.com","mobileNo":"9257602264"}
+2020-02-09 09:23:47,302 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - iBWucCB",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - iBWucCB",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 09:23:48,591 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 09:23:49,379 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 09:23:50,147 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 09:31:28,630 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"VBnWLJK","emailId":"VBnWLJK@demo.com","mobileNo":"9640617486"}
+2020-02-09 09:31:30,576 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - VBnWLJK",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - VBnWLJK",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 09:31:31,766 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 09:31:32,675 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 09:31:33,604 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 09:36:34,145 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"lxdCxNN","emailId":"lxdCxNN@demo.com","mobileNo":"9104206762"}
+2020-02-09 09:36:36,356 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - lxdCxNN",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - lxdCxNN",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 09:36:37,482 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 09:36:38,510 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 09:36:39,248 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 09:45:06,939 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 09:45:10,261 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 311
+2020-02-09 09:45:11,490 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 09:53:39,832 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 21:37:55,948 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"QqCDWyV","emailId":"QqCDWyV@demo.com","mobileNo":"9127374459"}
+2020-02-09 21:37:58,145 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - QqCDWyV",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - QqCDWyV",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 21:38:00,112 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 21:38:01,395 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 21:38:02,104 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 21:38:09,999 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 21:38:16,736 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 327
+2020-02-09 21:38:17,913 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 21:38:26,299 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 21:38:27,608 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 327",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 21:38:28,366 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 21:38:29,072 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 21:38:29,812 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 21:38:30,261 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-09 21:40:07,974 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"MRRMJbd","emailId":"MRRMJbd@demo.com","mobileNo":"9360689859"}
+2020-02-09 21:40:09,566 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - MRRMJbd",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - MRRMJbd",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 21:40:13,070 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 21:40:14,452 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 21:40:15,176 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 21:40:22,220 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 21:40:25,501 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 328
+2020-02-09 21:40:26,277 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 21:40:33,229 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 21:40:34,080 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 328",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 21:40:34,814 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 21:40:35,251 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 21:40:35,812 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 21:40:35,934 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-09 21:41:06,099 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"VREBVrv","emailId":"VREBVrv@demo.com","mobileNo":"9418442570"}
+2020-02-09 21:41:13,605 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - VREBVrv",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - VREBVrv",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 22:03:31,780 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"ttpSnKS","emailId":"ttpSnKS@demo.com","mobileNo":"9173095304"}
+2020-02-09 22:03:33,858 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - ttpSnKS",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - ttpSnKS",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 22:03:34,986 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 22:03:35,762 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 22:03:36,496 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 22:03:43,357 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 22:03:45,653 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 330
+2020-02-09 22:03:46,775 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 22:03:53,898 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 22:03:55,171 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 330",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 22:03:55,899 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 22:03:56,575 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 22:03:57,302 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 22:03:57,766 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-09 22:05:25,791 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"ArBFPNq","emailId":"ArBFPNq@demo.com","mobileNo":"9881435268"}
+2020-02-09 22:05:28,317 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - ArBFPNq",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - ArBFPNq",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 22:05:29,521 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 22:05:31,397 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 22:05:32,310 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 22:05:39,237 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 22:05:47,330 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 331
+2020-02-09 22:05:48,463 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 22:05:55,531 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 22:05:56,813 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 331",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 22:05:57,514 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 22:05:58,176 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 22:05:58,830 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 22:05:59,260 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-09 22:10:15,084 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"SOjRiiF","emailId":"SOjRiiF@demo.com","mobileNo":"9755668404"}
+2020-02-09 22:10:17,267 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - SOjRiiF",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - SOjRiiF",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 22:10:18,394 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 22:10:19,154 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 22:10:19,968 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 22:10:26,992 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-09 22:10:30,809 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 332
+2020-02-09 22:10:31,862 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-09 22:10:39,164 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-09 22:10:40,389 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 332",
+    "success": true,
+    "error": false
+} Passed
+2020-02-09 22:10:41,110 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-09 22:10:41,890 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-09 22:10:42,652 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-09 22:10:43,097 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
