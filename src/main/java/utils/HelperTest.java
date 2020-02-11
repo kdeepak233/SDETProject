@@ -1,10 +1,14 @@
 package utils;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -91,10 +95,26 @@ public class HelperTest extends DriverDetails {
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
 		} finally {
-			// mailConfigure.autotrigger();
+			copyData();
 		}
 	}
 
+	private void copyData() {
+        String destinationDir = "";
+        try {
+            String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+            destinationDir = "C:\\Result" + System.getProperty("includeGroups") + "/" + timeStamp + "/Extent-reports";
+            String sourceDir = System.getProperty("user.dir") + "/Extent Report";
+            File destDir = new File(destinationDir);
+            File srcDir = new File(sourceDir);
+            FileUtils.copyDirectory(srcDir, destDir);
+            System.out.println("Results are copied to location " + destinationDir.replace('/', '\\'));
+        } catch (Exception e) {
+            LOGGER.error("Exception occurred while moving results to shared drive : " + destinationDir + " with exception " + e);
+        }
+		
+	}
+	
 	public static String getTestData(String propertyName) {
 		return dataProperties.getProperty(propertyName);
 	}

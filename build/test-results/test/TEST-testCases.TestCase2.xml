@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCases.TestCase2" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-11T18:34:18" hostname="LAPTOP-5BBRIFC1" time="27.969">
+  <properties/>
+  <testcase name="testCase2" classname="testCases.TestCase2" time="27.969"/>
+  <system-out><![CDATA[{"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"aQdUSHt","emailId":"aQdUSHt@demo.com","mobileNo":"9702020072"}
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"aQdUSHt","emailId":"aQdUSHt@demo.com","mobileNo":"9702020072"}
+{"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"aQdUSHt","emailId":"aQdUSHt@demo.com","mobileNo":"9702020072"}
+{
+    "message": " Successfully added profile - aQdUSHt",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - aQdUSHt",
+    "success": true,
+    "error": false
+}
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: signup repsonse {
+    "message": " Successfully added profile - aQdUSHt",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - aQdUSHt",
+    "success": true,
+    "error": false
+} Passed
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Clicked on Sign In Button
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Credentials Entered
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: User Logged In
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Logged in Successfully
+350
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Profile Id is 350
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: clicked on Logo
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Logged out Successfully
+{
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 350",
+    "success": true,
+    "error": false
+}
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 350",
+    "success": true,
+    "error": false
+} Passed
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Clicked on Sign In Button
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Credentials Entered
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: User Logged In
+ INFO [TestNG-test=Gradle test-1] (BasePage.java:117)- Log.Info: Login Failed Successfully Passed
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 37062
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581446045.033][WARNING]: This version of ChromeDriver has not been tested with Chrome version 80.
+[1581446047.037][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 12, 2020 12:04:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1581446051.147][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+</testsuite>
