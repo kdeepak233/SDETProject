@@ -37,7 +37,7 @@ test{
 	systemProperty 'includeGroups', System.getProperty('includeGroups')
     systemProperty 'browser', System.getProperty('browser')
     useTestNG(){
-        includeGroups << System.getProperty("includeGroups")
+        includeGroups << System.getProperty("includeGroups").toString()
       	useDefaultListeners = true
         options{
             parallel = 'classes'

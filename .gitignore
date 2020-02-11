@@ -1,4 +1,8 @@
 /.gradle/
 /.gradle/
+<<<<<<< HEAD
 
 build
+=======
+/build/
+>>>>>>> 603e337be0e67ee29afec6bda554235711c77fe1
