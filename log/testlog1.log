@@ -319,3 +319,52 @@
 2020-02-09 22:10:41,890 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
 2020-02-09 22:10:42,652 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
 2020-02-09 22:10:43,097 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-10 09:12:43,774 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"trGjKNv","emailId":"trGjKNv@demo.com","mobileNo":"9152391895"}
+2020-02-10 09:12:45,360 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - trGjKNv",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - trGjKNv",
+    "success": true,
+    "error": false
+} Passed
+2020-02-10 09:12:46,335 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-10 09:12:47,208 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-10 09:12:47,805 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-10 09:12:53,719 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-10 09:12:54,296 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Furniture
+2020-02-10 09:12:54,986 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on a furniture
+2020-02-10 09:12:55,745 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Added to Wishlist
+2020-02-10 09:13:01,937 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-10 09:13:02,686 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on wishList
+2020-02-10 09:13:03,052 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Product matched Successfully
+2020-02-10 09:13:03,874 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-10 09:13:10,498 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-10 09:13:16,171 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"bAoyxMQ","emailId":"bAoyxMQ@demo.com","mobileNo":"9613559838"}
+2020-02-10 09:13:16,856 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - bAoyxMQ",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - bAoyxMQ",
+    "success": true,
+    "error": false
+} Passed
+2020-02-10 09:13:17,539 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-10 09:13:18,198 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-10 09:13:18,779 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-10 09:13:24,681 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-10 09:13:26,125 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 337
+2020-02-10 09:13:26,948 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-10 09:13:33,473 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-10 09:13:34,096 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 337",
+    "success": true,
+    "error": false
+} Passed
+2020-02-10 09:13:34,717 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-10 09:13:35,312 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-10 09:13:35,940 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-10 09:13:36,257 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
