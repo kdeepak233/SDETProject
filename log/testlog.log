@@ -1,0 +1,28 @@
+2020-02-12 00:23:25,341 - Log4j -INFO - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"PmLwlNV","emailId":"PmLwlNV@demo.com","mobileNo":"9193768531"}
+2020-02-12 00:23:27,670 - Log4j -INFO - Log.Info: signup repsonse {
+    "message": " Successfully added profile - PmLwlNV",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - PmLwlNV",
+    "success": true,
+    "error": false
+} Passed
+2020-02-12 00:23:29,147 - Log4j -INFO - Log.Info: Clicked on Sign In Button
+2020-02-12 00:23:30,116 - Log4j -INFO - Log.Info: Credentials Entered
+2020-02-12 00:23:30,943 - Log4j -INFO - Log.Info: User Logged In
+2020-02-12 00:23:37,953 - Log4j -INFO - Log.Info: Logged in Successfully
+2020-02-12 00:23:41,236 - Log4j -INFO - Log.Info: Profile Id is 353
+2020-02-12 00:23:42,383 - Log4j -INFO - Log.Info: clicked on Logo
+2020-02-12 00:23:49,531 - Log4j -INFO - Log.Info: Logged out Successfully
+2020-02-12 00:23:50,905 - Log4j -INFO - Log.Info: profile repsonse {
+    "message": "Profile deleted successfully.",
+    "httpStatus": "200 OK",
+    "httpStatusCode": 200,
+    "body": " Successfully deleted profile - 353",
+    "success": true,
+    "error": false
+} Passed
+2020-02-12 00:23:51,734 - Log4j -INFO - Log.Info: Clicked on Sign In Button
+2020-02-12 00:23:52,553 - Log4j -INFO - Log.Info: Credentials Entered
+2020-02-12 00:23:53,308 - Log4j -INFO - Log.Info: User Logged In
+2020-02-12 00:23:53,763 - Log4j -INFO - Log.Info: Login Failed Successfully Passed

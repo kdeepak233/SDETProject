@@ -103,11 +103,19 @@ public class HelperTest extends DriverDetails {
         String destinationDir = "";
         try {
             String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
-            destinationDir = "C:\\Result\\" + System.getProperty("includeGroups") + "/" + timeStamp + "/Extent-reports";
-            String sourceDir = System.getProperty("user.dir") + "/Extent Report";
-            File destDir = new File(destinationDir);
-            File srcDir = new File(sourceDir);
+            destinationDir = "C:\\Result\\" + System.getProperty("includeGroups") + "/" + timeStamp;
+            
+            String ersourceDir = System.getProperty("user.dir") + "/Extent Report";
+            File destDir = new File(destinationDir+ "/Extent-reports");
+            File srcDir = new File(ersourceDir);
             FileUtils.copyDirectory(srcDir, destDir);
+            
+            String logsourceDir = System.getProperty("user.dir") + "/log";
+            srcDir = new File(logsourceDir);
+            destDir = new File(destinationDir+ "/logs");
+            FileUtils.copyDirectory(srcDir, destDir);
+            
+            
             System.out.println("Results are copied to location " + destinationDir.replace('/', '\\'));
         } catch (Exception e) {
             LOGGER.error("Exception occurred while moving results to shared drive : " + destinationDir + " with exception " + e);
