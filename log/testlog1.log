@@ -1,226 +1,333 @@
-2020-02-12 00:23:25,341 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"PmLwlNV","emailId":"PmLwlNV@demo.com","mobileNo":"9193768531"}
-2020-02-12 00:23:27,670 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
-    "message": " Successfully added profile - PmLwlNV",
+2020-02-17 01:31:58,033 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"DBGFFVW","emailId":"DBGFFVW@demo.com","mobileNo":"9766021171"}
+2020-02-17 01:32:00,252 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - DBGFFVW",
     "httpStatus": "201 CREATED",
     "httpStatusCode": 200,
-    "body": " Successfully added profile - PmLwlNV",
+    "body": " Successfully added profile - DBGFFVW",
     "success": true,
     "error": false
 } Passed
-2020-02-12 00:23:29,147 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-12 00:23:30,116 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-12 00:23:30,943 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-12 00:23:37,953 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
-2020-02-12 00:23:41,236 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 353
-2020-02-12 00:23:42,383 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
-2020-02-12 00:23:49,531 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
-2020-02-12 00:23:50,905 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+2020-02-17 01:32:00,253 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:00,582 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:00,582 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:00,583 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:00,624 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:00,934 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:02,181 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-17 01:32:02,181 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:02,223 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:02,224 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:02,224 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:02,253 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:02,493 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:02,493 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:02,494 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:02,528 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:02,850 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:03,449 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-17 01:32:03,450 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:03,450 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:03,537 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:03,894 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:04,541 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-17 01:32:04,541 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:32:05,189 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:32:10,592 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:10,682 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:11,752 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-17 01:32:11,752 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:11,776 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:11,777 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:11,777 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:11,807 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:12,217 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:12,217 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:32:12,267 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:32:12,267 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:32:12,267 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:32:12,298 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:32:12,656 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:32:16,754 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: DataBase connection established successfully
+2020-02-17 01:32:17,451 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data fetched from Select * from profile where email_id='DBGFFVW@demo.com' and result for user_id is 461
+2020-02-17 01:32:17,451 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:32:17,494 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:32:17,953 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 461
+2020-02-17 01:32:18,396 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id from application is 461 matched with Database
+2020-02-17 01:32:18,398 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:32:18,399 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:32:18,436 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:32:18,874 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:32:20,336 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-17 01:32:20,336 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:20,371 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:20,371 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:20,371 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:20,396 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:20,672 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:32:20,672 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:32:20,717 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:32:20,717 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:32:20,718 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:32:20,748 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:32:21,261 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:32:21,262 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:32:21,352 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:32:27,079 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:27,154 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:28,101 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-17 01:32:29,577 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
     "message": "Profile deleted successfully.",
     "httpStatus": "200 OK",
     "httpStatusCode": 200,
-    "body": " Successfully deleted profile - 353",
+    "body": " Successfully deleted profile - 461",
     "success": true,
     "error": false
 } Passed
-2020-02-12 00:23:51,734 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-12 00:23:52,553 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-12 00:23:53,308 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-12 00:23:53,763 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
-2020-02-13 07:34:28,181 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"dxdfOnk","emailId":"dxdfOnk@demo.com","mobileNo":"9737774361"}
-2020-02-13 07:34:31,876 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
-    "message": " Successfully added profile - dxdfOnk",
+2020-02-17 01:32:29,579 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:29,603 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:29,604 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:29,604 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:29,649 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:30,155 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:32:30,738 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-17 01:32:30,739 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:30,773 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:30,774 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:30,774 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:30,842 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:31,165 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:32:31,166 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:31,167 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:31,212 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:31,493 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:32:32,088 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-17 01:32:32,088 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:32,089 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:32,125 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:32,544 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:32:33,273 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-17 01:32:33,276 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
+2020-02-17 01:32:33,314 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
+2020-02-17 01:32:33,844 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-17 01:35:06,895 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"pSXBrmL","emailId":"pSXBrmL@demo.com","mobileNo":"9302919026"}
+2020-02-17 01:35:09,643 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - pSXBrmL",
     "httpStatus": "201 CREATED",
     "httpStatusCode": 200,
-    "body": " Successfully added profile - dxdfOnk",
+    "body": " Successfully added profile - pSXBrmL",
     "success": true,
     "error": false
 } Passed
-2020-02-13 07:34:41,522 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-13 07:34:43,053 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-13 07:34:44,096 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-13 07:34:51,246 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
-2020-02-13 07:34:56,667 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 371
-2020-02-13 07:34:58,203 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
-2020-02-13 07:35:06,395 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
-2020-02-13 07:35:08,514 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+2020-02-17 01:35:09,645 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:09,738 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:09,739 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:09,740 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:09,786 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:10,211 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:11,159 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-17 01:35:11,160 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:11,238 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:11,239 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:11,239 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:11,273 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:11,458 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:11,459 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:11,459 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:11,520 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:11,786 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:12,350 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-17 01:35:12,350 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:35:12,351 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:35:12,423 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:35:12,882 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:35:13,608 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-17 01:35:13,609 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:35:14,171 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:35:19,797 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:19,860 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:21,008 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-17 01:35:21,009 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:21,033 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:21,033 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:21,033 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:21,057 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:21,527 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:21,529 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:35:21,616 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:35:21,616 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:35:21,617 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:35:21,650 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:35:27,122 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:35:30,728 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: DataBase connection established successfully
+2020-02-17 01:35:31,411 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data fetched from Select * from profile where email_id='pSXBrmL@demo.com' and result for user_id is 462
+2020-02-17 01:35:31,411 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:35:31,444 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:35:31,901 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 462
+2020-02-17 01:35:32,339 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id from application is 462 matched with Database
+2020-02-17 01:35:32,339 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:35:32,339 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:35:32,366 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:35:36,267 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:35:37,209 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-17 01:35:37,210 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:37,233 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:37,233 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:37,233 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:37,256 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:37,599 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:35:37,600 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:35:37,661 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:35:37,662 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:35:37,662 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:35:37,707 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:35:38,128 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:35:38,129 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:35:38,749 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:35:43,793 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:43,875 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:44,994 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-17 01:35:46,516 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
     "message": "Profile deleted successfully.",
     "httpStatus": "200 OK",
     "httpStatusCode": 200,
-    "body": " Successfully deleted profile - 371",
+    "body": " Successfully deleted profile - 462",
     "success": true,
     "error": false
 } Passed
-2020-02-13 07:35:09,702 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-13 07:35:10,838 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-13 07:35:11,798 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-13 07:35:12,534 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
-2020-02-14 10:19:22,398 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"UoptRWs","emailId":"UoptRWs@demo.com","mobileNo":"9436201793"}
-2020-02-14 10:20:30,417 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"mEqqOYa","emailId":"mEqqOYa@demo.com","mobileNo":"9997208343"}
-2020-02-14 22:39:11,952 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"SlzIsMD","emailId":"SlzIsMD@demo.com","mobileNo":"9642990879"}
-2020-02-14 22:39:14,608 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
-    "message": " Successfully added profile - SlzIsMD",
+2020-02-17 01:35:46,517 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:46,566 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:46,566 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:46,567 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:46,618 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:57,080 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:35:57,906 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-17 01:35:57,906 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:57,944 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:57,945 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:57,945 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:57,988 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:58,301 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:35:58,301 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:58,301 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:58,414 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:58,603 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:35:59,083 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-17 01:35:59,083 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:35:59,083 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:35:59,121 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:36:09,604 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:36:10,314 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-17 01:36:10,314 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
+2020-02-17 01:36:10,350 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
+2020-02-17 01:36:10,811 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-17 01:37:20,216 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"akqILSA","emailId":"akqILSA@demo.com","mobileNo":"9195802668"}
+2020-02-17 01:37:22,513 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
+    "message": " Successfully added profile - akqILSA",
     "httpStatus": "201 CREATED",
     "httpStatusCode": 200,
-    "body": " Successfully added profile - SlzIsMD",
+    "body": " Successfully added profile - akqILSA",
     "success": true,
     "error": false
 } Passed
-2020-02-14 22:39:15,990 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-14 22:39:17,270 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-14 22:39:18,371 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-14 23:21:56,578 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"bviVgwA","emailId":"bviVgwA@demo.com","mobileNo":"9420668721"}
-2020-02-14 23:21:59,357 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
-    "message": " Successfully added profile - bviVgwA",
-    "httpStatus": "201 CREATED",
-    "httpStatusCode": 200,
-    "body": " Successfully added profile - bviVgwA",
-    "success": true,
-    "error": false
-} Passed
-2020-02-14 23:22:00,620 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-14 23:22:02,588 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-14 23:22:03,818 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-14 23:22:12,377 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
-2020-02-14 23:22:19,622 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: DataBase connection established successfully
-2020-02-14 23:22:20,341 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data fetched from Select * from profile where email_id='bviVgwA@demo.com' and result for user_id is 398
-2020-02-14 23:22:20,983 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 398
-2020-02-14 23:22:21,433 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id from application is 398 matched with Database
-2020-02-14 23:22:28,024 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
-2020-02-14 23:22:36,378 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
-2020-02-14 23:22:38,624 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
+2020-02-17 01:37:22,514 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:22,565 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:22,566 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:22,566 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:22,603 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:22,893 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:23,849 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-17 01:37:23,849 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:23,882 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:23,882 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:23,882 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:23,908 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:24,227 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:24,228 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:24,230 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:24,287 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:24,612 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:25,213 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-17 01:37:25,213 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:25,213 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:25,254 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:25,701 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:26,374 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-17 01:37:26,374 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:37:26,943 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:37:32,565 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:32,669 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:33,540 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
+2020-02-17 01:37:33,541 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:33,564 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:33,564 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:33,564 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:33,601 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:34,053 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:34,054 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:37:34,085 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:37:34,086 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:37:34,087 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:37:34,113 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:37:34,547 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:37:37,871 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: DataBase connection established successfully
+2020-02-17 01:37:38,590 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data fetched from Select * from profile where email_id='akqILSA@demo.com' and result for user_id is 463
+2020-02-17 01:37:38,590 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:37:38,628 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:37:39,102 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 463
+2020-02-17 01:37:39,551 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id from application is 463 matched with Database
+2020-02-17 01:37:39,551 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:37:39,552 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:37:39,590 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:37:40,056 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:37:41,043 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
+2020-02-17 01:37:41,043 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:41,084 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:41,084 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:41,085 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:41,127 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:41,527 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:37:41,528 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:37:41,567 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:37:41,567 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:37:41,567 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:37:41,604 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:37:42,089 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:37:42,090 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:37:42,148 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:37:47,736 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:47,766 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:48,587 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
+2020-02-17 01:37:50,014 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
     "message": "Profile deleted successfully.",
     "httpStatus": "200 OK",
     "httpStatusCode": 200,
-    "body": " Successfully deleted profile - 398",
+    "body": " Successfully deleted profile - 463",
     "success": true,
     "error": false
 } Passed
-2020-02-14 23:22:39,618 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-14 23:22:41,214 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-14 23:22:42,054 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-14 23:22:42,585 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
-2020-02-16 23:35:22,223 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"Augzutp","emailId":"Augzutp@demo.com","mobileNo":"9440125014"}
-2020-02-16 23:35:26,348 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
-    "message": " Successfully added profile - Augzutp",
-    "httpStatus": "201 CREATED",
-    "httpStatusCode": 200,
-    "body": " Successfully added profile - Augzutp",
-    "success": true,
-    "error": false
-} Passed
-2020-02-16 23:35:34,767 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-16 23:35:36,438 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-16 23:35:37,544 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-16 23:35:44,899 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
-2020-02-16 23:35:46,292 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Furniture
-2020-02-16 23:35:49,594 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on a furniture
-2020-02-16 23:35:52,772 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Added to Wishlist
-2020-02-16 23:36:00,007 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
-2020-02-16 23:36:01,476 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on wishList
-2020-02-16 23:36:03,740 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
-2020-02-16 23:36:12,977 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
-2020-02-16 23:36:56,176 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"sZCFPoT","emailId":"sZCFPoT@demo.com","mobileNo":"9851498714"}
-2020-02-16 23:36:58,223 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
-    "message": " Successfully added profile - sZCFPoT",
-    "httpStatus": "201 CREATED",
-    "httpStatusCode": 200,
-    "body": " Successfully added profile - sZCFPoT",
-    "success": true,
-    "error": false
-} Passed
-2020-02-16 23:37:00,207 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-16 23:37:01,501 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-16 23:37:02,689 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-16 23:37:09,582 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
-2020-02-16 23:37:14,881 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: DataBase connection established successfully
-2020-02-16 23:37:15,635 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data fetched from Select * from profile where email_id='sZCFPoT@demo.com' and result for user_id is 451
-2020-02-16 23:37:16,156 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 451
-2020-02-16 23:37:16,636 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id from application is 451 matched with Database
-2020-02-16 23:37:18,035 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
-2020-02-16 23:37:25,624 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged out Successfully
-2020-02-16 23:37:27,151 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: profile repsonse {
-    "message": "Profile deleted successfully.",
-    "httpStatus": "200 OK",
-    "httpStatusCode": 200,
-    "body": " Successfully deleted profile - 451",
-    "success": true,
-    "error": false
-} Passed
-2020-02-16 23:37:27,990 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-16 23:37:29,022 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-16 23:37:29,940 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-16 23:37:30,536 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
-2020-02-17 01:04:48,699 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"UOPozoD","emailId":"UOPozoD@demo.com","mobileNo":"9877221368"}
-2020-02-17 01:04:51,616 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: signup repsonse {
-    "message": " Successfully added profile - UOPozoD",
-    "httpStatus": "201 CREATED",
-    "httpStatusCode": 200,
-    "body": " Successfully added profile - UOPozoD",
-    "success": true,
-    "error": false
-} Passed
-2020-02-17 01:04:51,618 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
-2020-02-17 01:04:51,890 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
-2020-02-17 01:04:51,891 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
-2020-02-17 01:04:51,893 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
-2020-02-17 01:04:51,980 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
-2020-02-17 01:04:52,370 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
-2020-02-17 01:04:54,466 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
-2020-02-17 01:04:54,467 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
-2020-02-17 01:04:54,522 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
-2020-02-17 01:04:54,523 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
-2020-02-17 01:04:54,523 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
-2020-02-17 01:04:54,582 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
-2020-02-17 01:04:55,106 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
-2020-02-17 01:04:55,107 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
-2020-02-17 01:04:55,108 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
-2020-02-17 01:04:55,180 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
-2020-02-17 01:04:55,402 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
-2020-02-17 01:04:56,028 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
-2020-02-17 01:04:56,028 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
-2020-02-17 01:04:56,029 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
-2020-02-17 01:04:56,065 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
-2020-02-17 01:04:56,407 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
-2020-02-17 01:04:57,265 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
-2020-02-17 01:04:57,266 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
-2020-02-17 01:04:58,058 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
-2020-02-17 01:05:03,178 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:03,232 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:04,388 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Logged in Successfully
-2020-02-17 01:05:04,389 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:04,413 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:04,413 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:04,413 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:04,436 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:04,883 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:04,883 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
-2020-02-17 01:05:04,920 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
-2020-02-17 01:05:04,921 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
-2020-02-17 01:05:04,921 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
-2020-02-17 01:05:04,952 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
-2020-02-17 01:05:05,528 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
-2020-02-17 01:05:09,754 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: DataBase connection established successfully
-2020-02-17 01:05:10,600 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data fetched from Select * from profile where email_id='UOPozoD@demo.com' and result for user_id is 455
-2020-02-17 01:05:10,601 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[text()=' My Profile ']
-2020-02-17 01:05:10,674 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[text()=' My Profile ']
-2020-02-17 01:05:11,290 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id is 455
-2020-02-17 01:05:11,883 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Profile Id from application is 455 matched with Database
-2020-02-17 01:05:11,884 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h3[@routerlink='/home']
-2020-02-17 01:05:11,885 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h3[@routerlink='/home']
-2020-02-17 01:05:11,932 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h3[@routerlink='/home']
-2020-02-17 01:05:12,301 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h3[@routerlink='/home']
-2020-02-17 01:05:13,460 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: clicked on Logo
-2020-02-17 01:05:13,460 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:13,494 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:13,495 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:13,495 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:13,535 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:13,809 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
-2020-02-17 01:05:13,810 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
-2020-02-17 01:05:13,869 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
-2020-02-17 01:05:13,869 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
-2020-02-17 01:05:13,870 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
-2020-02-17 01:05:13,909 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
-2020-02-17 01:05:14,289 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
-2020-02-17 01:05:14,291 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
-2020-02-17 01:05:14,350 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:37:50,015 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:50,038 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:50,039 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:50,039 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:50,064 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:50,474 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:37:51,087 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Clicked on Sign In Button
+2020-02-17 01:37:51,088 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:51,172 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:51,172 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:51,173 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:51,223 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:51,606 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:37:51,607 [TestNG-test=Gradle test-1] INFO Log4j - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:51,608 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:51,696 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:52,034 [TestNG-test=Gradle test-1] INFO Log4j - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:37:52,650 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Credentials Entered
+2020-02-17 01:37:52,651 [TestNG-test=Gradle test-1] INFO Log4j - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:52,652 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:52,737 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:53,149 [TestNG-test=Gradle test-1] INFO Log4j - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:37:53,856 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: User Logged In
+2020-02-17 01:37:53,856 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
+2020-02-17 01:37:53,901 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
+2020-02-17 01:37:54,388 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed

@@ -26,8 +26,8 @@ import services.Connection;
 
 public class HelperTest extends DriverDetails {
 
-	Reporting report = new Reporting();
-	public ExtentReports ext = report.createInstance();
+	static Reporting report = new Reporting();
+	public static ExtentReports ext = report.createInstance();
 	public final static Logger LOGGER = Logger.getLogger(HelperTest.class);
 	public static Properties dataProperties;
 	BasePage basePage = new BasePage();
@@ -87,13 +87,8 @@ public class HelperTest extends DriverDetails {
 
 	@AfterSuite(alwaysRun = true)
 	public void clearExtentTest() {
-		try {
-			ext.flush();
-		} catch (Exception e) {
-			Assert.fail(e.getMessage());
-		} finally {
-			copyData();
-		}
+		ext.flush();
+		copyData();
 	}
 
 	private void copyData() {
