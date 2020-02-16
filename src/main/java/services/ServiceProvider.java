@@ -17,8 +17,8 @@ public class ServiceProvider extends BasePage{
 		setData("name", name);
 		setData("userEmail", email);
 		setData("phoneNumber",phoneNumber);
-		setData("password","Demo@1234");
-	
+		setData("password","Demo@1234");	
+		
 		jsonChlid.put("description", "description");
 		jsonChlid.put("name", "DemoUser");
 		jsonChlid.put("roleId", 196);

@@ -9,9 +9,15 @@ public class ProfilePage  extends BasePage {
 	public void getProfileId() {
 		waitVisibility(txtProfile);
 		String profileId=getDriver().getCurrentUrl().split("me/")[1];
-		System.out.println(profileId);
 		setData("profileId", profileId);
 		getReport("info", "Profile Id is "+ profileId);
+	}
+	
+	public void verifyProfileIdWithDb() {
+		if(getData("profileId").equals(getData("dbOutput")))
+			getReport("info", "Profile Id from application is "+getData("profileId")+" matched with Database");
+		else
+			getReport("fail", "Profile Id from application is "+getData("profileId")+"and data from database is "+getData("dbOutput")+" is not matched");
 	}
 
 }

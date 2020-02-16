@@ -6,6 +6,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.ProfilePage;
 import services.Connection;
+import utils.DBConnections;
 import utils.HelperTest;
 
 public class TestCase2 extends HelperTest {
@@ -16,14 +17,17 @@ public class TestCase2 extends HelperTest {
 		HomePage homePage = new HomePage();
 		Connection connection=new Connection();
 		ProfilePage profilePage=new ProfilePage();
-		
+		DBConnections dbConnections =new DBConnections();
 		setTestSetId("TC_ProfileTestCase");
 		
 		connection.postRestData(getTestData("signupAPI"));
 		loginPage.enterLoginCredentials();
 		homePage.verifyLogin();
 		homePage.clickOnProfile();
+		dbConnections.queryBuilder(getTestData("profileIdQuery"), "userEmail");
+		dbConnections.getDataFromDataBase("user_id");
 		profilePage.getProfileId();
+		profilePage.verifyProfileIdWithDb();
 		homePage.clickLogo();
 		homePage.logOut();
 		loginPage.verifyLogOut();
