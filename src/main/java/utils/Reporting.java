@@ -43,7 +43,7 @@ public class Reporting {
 
 	public ExtentReports createInstance() {
 
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\Extent Report\\extent.html");
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\Extent_Report\\extent.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		return extent;
