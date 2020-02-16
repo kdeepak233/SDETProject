@@ -11,7 +11,7 @@ import services.Connection;
 import utils.HelperTest;
 
 public class TestCase1 extends HelperTest {
-	@Test(groups = "loginTestCase")
+	@Test(groups = {"loginTestCase","testcase"})
 	public void te1() {
 
 		LoginPage loginPage = new LoginPage();
@@ -20,10 +20,10 @@ public class TestCase1 extends HelperTest {
 		ProductPage productPage = new ProductPage();
 		WishlistPage wishlistPage=new WishlistPage();
 		Connection connection=new Connection();
+	
 		setTestSetId("TC_LoginTestCase");
 		
 		connection.postRestData(getTestData("signupAPI"));
-		//connection.getRestData(requestSpecBuilder, getTestData("signupAPI"), value);
 		loginPage.enterLoginCredentials();
 		homePage.verifyLogin();
 		homePage.clickFurniture();
@@ -37,5 +37,4 @@ public class TestCase1 extends HelperTest {
 		homePage.logOut();
 		loginPage.verifyLogOut();
 	}
-	
 }

@@ -10,7 +10,7 @@ import utils.DBConnections;
 import utils.HelperTest;
 
 public class TestCase2 extends HelperTest {
-	@Test(groups = "tc2")
+	@Test(groups = {"tc2","testcase"})
 	public void testCase2() {
 
 		LoginPage loginPage = new LoginPage();
@@ -18,6 +18,7 @@ public class TestCase2 extends HelperTest {
 		Connection connection=new Connection();
 		ProfilePage profilePage=new ProfilePage();
 		DBConnections dbConnections =new DBConnections();
+		
 		setTestSetId("TC_ProfileTestCase");
 		
 		connection.postRestData(getTestData("signupAPI"));
@@ -33,8 +34,6 @@ public class TestCase2 extends HelperTest {
 		loginPage.verifyLogOut();
 		connection.deleteData(getTestData("profileAPI"), "profileId");
 		loginPage.enterLoginCredentials();
-		homePage.veificationFailed();
-		
+		homePage.veificationFailed();	
 	}
-	
 }
