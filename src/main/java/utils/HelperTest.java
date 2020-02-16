@@ -101,8 +101,8 @@ public class HelperTest extends DriverDetails {
 		try {
 			String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 			destinationDir = "C:\\Result\\" + System.getProperty("includeGroups") + "/" + timeStamp;
-			String ersourceDir = System.getProperty("user.dir") + "/Extent Report";
-			File destDir = new File(destinationDir + "/Extent-reports");
+			String ersourceDir = System.getProperty("user.dir") + "/Extent_Report";
+			File destDir = new File(destinationDir + "/Extent_reports");
 			File srcDir = new File(ersourceDir);
 			FileUtils.copyDirectory(srcDir, destDir);
 			String logsourceDir = System.getProperty("user.dir") + "/log";

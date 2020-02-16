@@ -150,3 +150,77 @@
 2020-02-16 23:37:29,022 - Log4j -INFO - Log.Info: Credentials Entered
 2020-02-16 23:37:29,940 - Log4j -INFO - Log.Info: User Logged In
 2020-02-16 23:37:30,536 - Log4j -INFO - Log.Info: Login Failed Successfully Passed
+2020-02-17 01:04:48,699 - Log4j -INFO - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"UOPozoD","emailId":"UOPozoD@demo.com","mobileNo":"9877221368"}
+2020-02-17 01:04:51,616 - Log4j -INFO - Log.Info: signup repsonse {
+    "message": " Successfully added profile - UOPozoD",
+    "httpStatus": "201 CREATED",
+    "httpStatusCode": 200,
+    "body": " Successfully added profile - UOPozoD",
+    "success": true,
+    "error": false
+} Passed
+2020-02-17 01:04:51,618 - Log4j -INFO - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:04:51,890 - Log4j -INFO - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:04:51,891 - Log4j -INFO - Before clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:04:51,893 - Log4j -INFO - Before waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:04:51,980 - Log4j -INFO - After waiting for element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:04:52,370 - Log4j -INFO - After clicking on element By.xpath: //button/span[contains(text(),' Support ')]/../following-sibling::button/span[contains(text(),'Sign In')]
+2020-02-17 01:04:54,466 - Log4j -INFO - Log.Info: Clicked on Sign In Button
+2020-02-17 01:04:54,467 - Log4j -INFO - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:04:54,522 - Log4j -INFO - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:04:54,523 - Log4j -INFO - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:04:54,523 - Log4j -INFO - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:04:54,582 - Log4j -INFO - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:04:55,106 - Log4j -INFO - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='emailId']
+2020-02-17 01:04:55,107 - Log4j -INFO - Before writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:04:55,108 - Log4j -INFO - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:04:55,180 - Log4j -INFO - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:04:55,402 - Log4j -INFO - After writing text By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//input[@id='password']
+2020-02-17 01:04:56,028 - Log4j -INFO - Log.Info: Credentials Entered
+2020-02-17 01:04:56,028 - Log4j -INFO - Before clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:04:56,029 - Log4j -INFO - Before waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:04:56,065 - Log4j -INFO - After waiting for element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:04:56,407 - Log4j -INFO - After clicking on element By.xpath: //h2[contains(text(),'Sign in')]/following-sibling::div//button[@type='submit']
+2020-02-17 01:04:57,265 - Log4j -INFO - Log.Info: User Logged In
+2020-02-17 01:04:57,266 - Log4j -INFO - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:04:58,058 - Log4j -INFO - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully')]
+2020-02-17 01:05:03,178 - Log4j -INFO - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:03,232 - Log4j -INFO - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:04,388 - Log4j -INFO - Log.Info: Logged in Successfully
+2020-02-17 01:05:04,389 - Log4j -INFO - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:04,413 - Log4j -INFO - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:04,413 - Log4j -INFO - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:04,413 - Log4j -INFO - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:04,436 - Log4j -INFO - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:04,883 - Log4j -INFO - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:04,883 - Log4j -INFO - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:05:04,920 - Log4j -INFO - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:05:04,921 - Log4j -INFO - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:05:04,921 - Log4j -INFO - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:05:04,952 - Log4j -INFO - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:05:05,528 - Log4j -INFO - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),' Profile')]
+2020-02-17 01:05:09,754 - Log4j -INFO - Log.Info: DataBase connection established successfully
+2020-02-17 01:05:10,600 - Log4j -INFO - Log.Info: Data fetched from Select * from profile where email_id='UOPozoD@demo.com' and result for user_id is 455
+2020-02-17 01:05:10,601 - Log4j -INFO - Before waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:05:10,674 - Log4j -INFO - After waiting for element By.xpath: //h2[text()=' My Profile ']
+2020-02-17 01:05:11,290 - Log4j -INFO - Log.Info: Profile Id is 455
+2020-02-17 01:05:11,883 - Log4j -INFO - Log.Info: Profile Id from application is 455 matched with Database
+2020-02-17 01:05:11,884 - Log4j -INFO - Before clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:05:11,885 - Log4j -INFO - Before waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:05:11,932 - Log4j -INFO - After waiting for element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:05:12,301 - Log4j -INFO - After clicking on element By.xpath: //h3[@routerlink='/home']
+2020-02-17 01:05:13,460 - Log4j -INFO - Log.Info: clicked on Logo
+2020-02-17 01:05:13,460 - Log4j -INFO - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:13,494 - Log4j -INFO - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:13,495 - Log4j -INFO - Before clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:13,495 - Log4j -INFO - Before waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:13,535 - Log4j -INFO - After waiting for element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:13,809 - Log4j -INFO - After clicking on element By.xpath: //button/span[contains(text(),'Hi, ')]
+2020-02-17 01:05:13,810 - Log4j -INFO - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:05:13,869 - Log4j -INFO - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:05:13,869 - Log4j -INFO - Before clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:05:13,870 - Log4j -INFO - Before waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:05:13,909 - Log4j -INFO - After waiting for element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:05:14,289 - Log4j -INFO - After clicking on element By.xpath: //div[@role='menu']//button[contains(text(),'Log out')]
+2020-02-17 01:05:14,291 - Log4j -INFO - Before waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
+2020-02-17 01:05:14,350 - Log4j -INFO - After waiting for element By.xpath: //div[contains(@aria-label,'Successfully logged out')]
