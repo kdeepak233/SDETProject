@@ -331,3 +331,5 @@
 2020-02-17 01:37:53,856 [TestNG-test=Gradle test-1] INFO Log4j - Before waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
 2020-02-17 01:37:53,901 [TestNG-test=Gradle test-1] INFO Log4j - After waiting for element By.xpath: //div[@role='alert' and contains(text(),'Invalid Email or Password')]
 2020-02-17 01:37:54,388 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Login Failed Successfully Passed
+2020-02-18 17:08:24,430 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"LiPSKuR","emailId":"LiPSKuR@demo.com","mobileNo":"9437642769"}
+2020-02-18 17:22:08,039 [TestNG-test=Gradle test-1] INFO Log4j - Log.Info: Data created for signup {"password":"Demo@1234","role":{"roleId":196,"name":"DemoUser","description":"description"},"userStatus":"ACTIVE","gender":"MALE","name":"LKfRQoY","emailId":"LKfRQoY@demo.com","mobileNo":"9135530019"}

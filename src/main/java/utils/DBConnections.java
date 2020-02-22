@@ -10,6 +10,7 @@ import pages.BasePage;
 
 public class DBConnections extends BasePage {
 	private Statement statement;
+	private static ResultSet result;
 
 	public Statement setConnection() {
 		Connection con = null;
@@ -33,22 +34,24 @@ public class DBConnections extends BasePage {
 			statement=setConnection();
 		}
 		String output = null;
-		ResultSet result;
 		try {
-			result = statement.executeQuery(getData("query"));
+			if(getData("query").equals(getData("query1")))
+				result = statement.executeQuery(getData("query"));
 			while (result.next()) {
 				output = result.getString(data);
 			}
 			getReport("info", "Data fetched from " + getData("query") + " and result for " + data + " is " + output);
+			result.first();
 		} catch (SQLException e) {
 			getReport("fail", "Data fetching failed with exception " + e);
 		}
+		setData("query1", "");
 		setData("dbOutput", output);
 	}
 	
 	public void queryBuilder(String statements,String data) {
 		String query=statements+"'"+getData(data)+"'";
 		setData("query", query);
-		
+		setData("query1", query);
 	}
 }
